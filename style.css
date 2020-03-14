@@ -1,0 +1,151 @@
+
+body{
+  background-color: #DB5461;
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+}
+#main {
+  margin: 0;
+  padding: 0; 
+}
+h1 {
+    color: white
+    }
+    span{
+    color: #30343f
+  }
+    span{
+    color: white
+    }
+.contenedor{
+  display: grid;
+  grid-template-columns: repeat(32, 1fr);
+  grid-template-rows: repeat(18, 1fr);
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+.responsive {
+  max-width: 150%;
+  height: auto;
+}
+.responsive2 {
+  max-width: 80%;
+  height: auto;
+}
+.button {
+  background-color: white;
+  border: 2px solid #30343f;
+  color: #30343f;
+  font-size: 5rem;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  border-radius: 22px;
+  cursor: pointer;
+}
+#logo{
+  background-color: #DB5461;
+  z-index: -2;
+  max-width: 80%;
+  grid-row: 1/16;
+  grid-column: 1/18;
+  padding-left: 8%;
+  padding-top: 10%;
+  font-size: 12px;
+}
+
+#leftHalf{
+  background-color: #DB5461;
+  z-index: -2;
+  grid-row: 6/17;
+  grid-column: 1/18;
+  padding-left: 8%;
+  padding-top: 45px;
+  font-size: 1.5vw;
+}
+#fotoFondo{
+  background-color: #DB5461;
+  z-index: -2;
+  margin: 0;
+  grid-row: 1/17;
+  grid-column: 16/32;
+  clip-path: polygon(0 0, 100% 0%, 100% 100%, 16% 100%);
+}
+#topBar{
+  background-blend-mode: overlay;
+  z-index: -1;
+  margin: 0;
+  grid-row: 3/4;
+  grid-column: 20/31;
+  background-color: white;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bolder;
+  font-size: 1vw;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+#nav li{
+  float: left;
+}
+#footer{
+  display: grid;
+  background-color: #30343F;
+  grid-row: 17/19;
+  grid-column: 1/32;
+  margin: 0;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2vh;
+}
+#footerUbicacionesIcono{
+  background-color: #30343F;
+  width: 50px;
+  height: auto;
+  grid-row-start: 12;
+  grid-column-start: 1;
+  padding-left: 70%;
+  padding-top: 10%;
+}
+#footerUbicacionesTexto{
+  background-color: #30343F;
+  grid-row-start: 12;
+  grid-column-start: 2;
+  padding-left: 1%;
+  color: white;
+}
+#footerHappyClientsIcono{
+  background-color: #30343F;
+  width: 50px;
+  height: auto;
+  grid-row-start: 12;
+  grid-column-start: 4;
+  padding-left: 60%;
+  padding-top: 10%;
+}
+#footerHappyClientsTexto{
+  background-color: #30343F;
+  grid-row-start: 12;
+  grid-column-start: 5;
+  padding-left: 2%;
+  color: white;
+}
+#footerYearsExperienceIcono{
+  background-color: #30343F;
+  width: 50px;
+  height: auto;
+  grid-row-start: 12;
+  grid-column-start: 6;
+  padding-left: 55%;
+  padding-top: 10%;
+}
+#footerYearsExperienceTexto{
+  background-color: #30343F;
+  grid-row-start: 12;
+  grid-column-start: 7;
+  padding-left: 0%;
+  color: white;
+}
