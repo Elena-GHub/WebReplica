@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    background-color: #F3F3F3;
+}
+
+header{
+    height: 550px;
+    background-image: url(https://i.ibb.co/vhQbD6s/header-Desk.jpg);
+    background-size: 100%;
+    background-position-y: -280px;
+    background-repeat: no-repeat;
+}
+header nav {
+    width: 100%;
+    height: 100px;
+    margin-top: -50px;
+}
+nav li{
+    display:inline;
+    padding-left:10px;
+    padding-right:10px;
+    float: right;
+    margin-right: 20px;
+}
+a{
+    color: #B0A38E;
+}
+
+nav img {
+    width: 20px;
+}
+
+#logo{
+    width: 100px;
+}
+    
+#logo img{
+    margin: 25px;
+    width: 100%;
+}
+h2{
+    color: #4A4A4A;
+    background: transparent;
+    font-size: 70px;
+    text-align: center;
+    text-justify: auto;
+}
+
+#aboutUs{
+    display: grid;
+    grid-template-columns: 150px 280px 155px 3fr 100px;
+    grid-template-rows: 90px 80px 80px 80px 80px 50px ;
+    column-gap: 60px;
+    justify-items: initial;
+    background-color:black;
+}
+
+#aboutUs h1 {
+    margin-top: 30px;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    color: #535353;
+    background-color:black;
+}
+
+#title1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: #9F9F9F;
+    background-color:black;
+}
+#title2 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: #9F9F9F;
+    background-color:black;
+}
+#description{
+    grid-column: 2/3;
+    grid-row: 3/7;
+    color: #535353;
+    font-size: 0.82rem;
+    font-weight: bold;
+    line-height: 1.6;
+    background-color:black;
+}
+
+#services1{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    color: #535353;
+    background-color:black;
+}
+
+#services2{
+    grid-column: 3/4;
+    grid-row: 4/5;
+    color: #535353;
+    background-color:black;
+}
+
+#services3{
+    grid-column: 3/4;
+    grid-row: 5/6;
+    color: #535353;
+    background-color:black;
+}
+.textBlackBackground{
+    background-color:black;
+}
+.imgService{
+    width: 40px;
+    background-color:black;
+}
+
+#windowplant{
+    grid-column: 4/5;
+    grid-row: 2/6;
+    background-image: url(https://i.ibb.co/30LLWXL/Window-Plant.jpg?fv_content=true&size_mode=5);
+    background-size: 160%;
+    background-position-x:0px;
+    background-repeat: no-repeat;
+}
+
+#categories {
+    display: grid;
+    grid-template-rows: 80px 450px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #535353;
+}
+
+.fondoConHover {
+    background-color:rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 100%;
+    background-blend-mode: initial;
+}
+
+.fondoConHover h2{
+    padding-top: 170px;
+}
+
+.fondoConHover:hover{
+    opacity: 0;
+}
+
+#bathroom{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background-image:url(https://i.ibb.co/7QvcSQ5/bathroom.jpg?);
+    background-repeat: no-repeat;
+    height:100%;
+    background-size: 166%;
+    background-blend-mode: darken;
+    background-position-x: -150px;
+}
+
+#kitchen{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(https://i.ibb.co/0m6GS2w/kitchen.jpg?);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 100%;
+}
+
+#bedRoom{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(https://i.ibb.co/tCDQDpm/bedroom.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 100%;
+
+}
+
+#livingRoom{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-image:url(https://i.ibb.co/Lxt0nfw/livingroom.jpg);
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-size: 225%;
+    background-position-x: -130px;
+}
+
+#categories h1{
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+#categories h2{
+    font-size: 40px;
+    color: white;
+}
+
+#title {
+    background-color: #F3F3F3;
+    grid-row: 1/2;
+    grid-column: 1/5;
+}
+
+footer {
+    height: 60px;
+    background-color: #F3F3F3;
+    text-align: center;
+    color: #B0A38E;
+}
+.centeredText{
+    height: 80px;
+    line-height: 80px;
+}
