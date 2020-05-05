@@ -1,0 +1,34 @@
+{
+    "mascotas": [
+        {
+        name: 'Thundercat',
+        class: 'dog',
+        class2: 'fas fa-dog',
+        human: 'Edgar'
+        },
+        {
+        name: 'Greta',
+        class: 'dog',
+        class2: 'fas fa-dog',
+        human: 'Diego'
+        },
+        {
+        name: 'Chuches',
+        class: 'dog',
+        class2: 'fas fa-dog',
+        human: 'David'
+        },
+        {
+        name: 'Pol',
+        class: 'cat',
+        class2: 'fas fa-cat',
+        human: 'Eva'
+        },
+        {
+        name: 'Nanu',
+        class: 'dog',
+        class2: 'fas fa-dog',
+        human: 'Javi'
+        }
+    ]
+}
